@@ -23,5 +23,5 @@ Link : [Yolomy](https://p-koskey.github.io/yolomy/)
 
 ## License
 
-This project is licensed under the MIT License.
-Copyright(2020) Patience Koskey
+-This project is licensed under the MIT License.
+-Copyright(2020) Patience Koskey
