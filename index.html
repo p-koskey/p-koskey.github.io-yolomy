@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+    <head>
+       
+        <title>Yolomy</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="top">
+        <header class="nav-bar">
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#products"><img src="img/shop.png" alt="cart"></a></li> 
+            </ul>
+        </nav>
+    </header>
+        <div class="message">
+                <h1>Our clothing, Your comfort</h1>
+                <h3>We understand that you need to look good and feel great.<br> It all starts with what you are wearing. </h3>
+         </div>
+         <div class="mouse-click">
+             <img src="img/mouse_click.png" alt="">
+         </div>
+        </div> 
+        <section id="products-checkbox">
+            <div id="products-type">
+                <input type="checkbox" id="men" name="men" value="men" class="checkbox-custom" checked onclick="ShowHideDiv()">
+                <label for="men" class="checkbox-custom-label">MEN</label>
+                <input type="checkbox" id="women" name="women" value="women" class="checkbox-custom" checked onclick="ShowHideDiv()">
+                <label for="women" class="checkbox-custom-label">WOMEN</label>
+                <input type="checkbox" id="children" name="children" value="children" class="checkbox-custom" checked>
+                <label for="children" class="checkbox-custom-label">CHILDREN</label>
+            </div>
+            <div id="products-button">
+                <button><a href="#products">SEE ALL PRODUCTS</a> </button>
+            </div>
+        </section> 
+    <main id="products">
+        <section id="men-products">            
+            <div class="texttitle">
+                <div class="title">
+                  MEN
+                </div>
+                <div class="divider"></div>
+              </div>
+              <div class="scroll">                
+                <p>1/5</p>
+               <div><p><i class="fa fa-angle-left" aria-hidden="true"></i>&nbsp&nbsp<i class="fa fa-angle-right" aria-hidden="true"></i></p></div> 
+              </div>            
+              <br>
+              <div class="flex-container">
+                <div class="flex-item" >
+                    <div class="top">
+                        <h5>SIZE</h5>
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <span class="circle1"></span>
+                        <span class="circle2"></span> 
+                        <span class="circle3"></span>      
+                    </div>
+                    <img src="img/products/tshirt.png" alt=""> 
+                    <div class="bottom">
+                        <h6>T-SHIRT</h6>
+                        <h5>5,00 &euro;</h5>
+                    </div>                
+                </div>
+                <div class="flex-item">
+                    <div class="top">
+                        <h5>SIZE</h5>
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        
+                    </div>  
+                    <img src="img/products/pants.png" alt=""> 
+                    <div class="bottom">
+                        <h6>PANTS FORCLAZ</h6>
+                        <h5>30,00 &euro;</h5>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="top">
+                        <h5>10LITRI</h5>
+                    </div>
+                    <img src="img/products/backpack.png" alt="">
+                    <div class="bottom">
+                        <h6>BACKPACK</h6>
+                        <h5>60,00 &euro;</h5>
+                    </div>
+                </div>                
+              </div>
+        </section>
+
+        <section id="women-products">            
+            <div class="texttitle">
+                <div class="divider"></div>
+
+                <div class="title">
+                  WOMEN
+                </div>                
+            </div>
+            <div class="scroll">                
+                <p>1/5</p>
+               <div><p><i class="fa fa-angle-left" aria-hidden="true"></i>&nbsp&nbsp<i class="fa fa-angle-right" aria-hidden="true"></i></p></div> 
+            </div>            
+              <br>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <div class="top">
+                        <h5>SIZE</h5>
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        
+                    </div>
+                    <img src="img/products/giacket.png" alt=""> 
+                    <div class="bottom">
+                        <h6>GIACKET</h6>
+                        <h5>60,00 &euro;</h5>
+                    </div>                
+                </div>
+                <div class="flex-item">
+                    <div class="top">
+                        <h5>SIZE</h5>
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </div>  
+                    <img src="img/products/trekkingshoes.png" alt=""> 
+                    <div class="bottom">
+                        <h6>TREKKING SHOES</h6>
+                        <h5>80,00 &euro;</h5>
+                    </div>
+                </div>
+                <div class="flex-item">
+                    <div class="top">
+                        <h5>SIZE</h5>
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <span class="circle4"></span>
+                        <span class="circle5"></span> 
+                    </div> 
+                    <img src="img/products/tshirt_ladies.png" alt="">
+                    <div class="bottom">
+                        <h6>T-SHIRT</h6>
+                        <h5>20,00 &euro;</h5>
+                    </div>
+                </div>                
+              </div>            
+        </section>
+
+        <section id="about">
+            <div class="about-message">
+                
+                <fieldset>
+                    <legend>ABOUT US</legend>
+                    <p>This is where high fashion clothing is designed and crafted from the heart
+                        by an amazing team of craftsmen and designers who understand what fashion is.</p>
+                  </fieldset>
+            </div>
+        </section>
+        <section id="sale">
+            <div class="tweets">
+                <img src="img/twitter_bird.png" alt="">
+                <h3>"SALE: Buy anything for 45% off. Use the promo CODE YOLOMY45 when you buy items"
+                </h3>
+            </div>
+        </section>
+    </main>     
+    <footer>
+        <div class="flex-footer">
+        <div class="yolomy">
+            <h4>YOLOMY</h4>
+            <h5>WE ARE YOLOMY - WE UNDERSTAND FASHION AND STYLE. WE CRAFT OUR PRODUCTS WITH LOVE AND DILIGENCE.</h5>
+        </div>
+        <div class="social">
+            <h3>We are Social</h3>
+            <div class="grid-social">
+                <div class="grid-item"><img src="img/g_plus.png" alt=""></div>
+                <div class="grid-item"><img src="img/facebook.png" alt=""></div>
+                <div class="grid-item"><img src="img/you_tube.png" alt=""></div>
+                <div class="grid-item"><img src="img/stumble_upon.png" alt=""></div>
+                <div class="grid-item"><img src="img/skype.png" alt=""></div>
+                <div class="grid-item"><img src="img/flickr.png" alt=""></div>
+                <div class="grid-item"><img src="img/twitter.png" alt=""></div>
+                <div class="grid-item"><img src="img/pinterest.png" alt=""></div>
+            </div>
+        </div>
+        <div class="credits">
+            <h5>CREDITS | PRIVACY | ABOUT | CONTACT</h5>
+            <h4>Yolomy: We Mean Fashion</h4>
+        </div>
+    </div>
+        <div class="copyright"><h5>COPYRIGHT 2015. YOLOMY INC</h5></div>
+    </footer>   
+    <script type="text/javascript" src="js/script.js"></script>   
+    </body>
+</html>

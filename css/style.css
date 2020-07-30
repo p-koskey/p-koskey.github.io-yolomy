@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 550;
+}
+html {
+    scroll-behavior: smooth;
+  }
+#top{
+    background: url(../img/hero.jpg);
+    background-size: cover;
+    top: 0;
+    margin: 0;
+    max-width: 100%;
+    height: 790px;
+    position: relative;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.logo{
+    padding: 50px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    margin: 0 30px;
+    position: relative;
+    right: 70px;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+.message {
+    text-align: center;
+    color: white;
+    position: relative;
+    
+}
+.message h1{
+    position: relative;
+    top: 150px;
+    font-size: 50px;
+}
+
+.message h3{
+    position: relative;
+    top: 170px;
+    font-weight: lighter;
+}
+
+.mouse-click{
+    display: block;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+
+#products-checkbox{
+    height: 100px;
+    background-color:#c6bfa5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#products-type{
+    padding: 30px 50px;
+    display: flex;
+}
+
+#products-button{
+    margin: 30px;
+    
+}
+.checkbox-custom {
+    display: none;
+  }
+  .checkbox-custom-label {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin: 15px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  .checkbox-custom + .checkbox-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px; height: 10px;
+    padding: 2px; margin-right: 10px;
+  }
+  .checkbox-custom:checked + .checkbox-custom-label:after {
+    content: "";
+    padding: 2px;
+    position: absolute;
+    width: 1px;
+    height: 5px;
+    border: solid #aa9f8a;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+    top: 2px; left: 5px;
+  }
+button {
+    background-color:#661a00;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    background-color: white;
+}
+
+#men-products{
+    margin: 50px 50px 0px;
+}
+
+.texttitle{
+    display:flex;
+    flex-direction:row;
+     align-items: center;
+     margin-bottom: 40px;
+   
+  }
+.title{
+    flex-grow:0;
+    font-size: smaller;
+  }
+  
+.divider{
+    flex-grow:1;
+    height: 0.5px;
+    background-color: black;
+    
+  }
+  #men-products .divider{
+      margin-left: 20px;
+  }
+.scroll{
+    float: right;
+    color: #c6bfa5;
+    position: relative;
+    bottom: 30px;
+}
+.scroll p{
+    float: right;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 150px;
+    
+}
+.flex-item:hover {
+    
+    border: 2px solid #aa9f8a;
+}
+.flex-item{
+    background-color: #f5f5f5;
+    flex-basis: 30%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: border-color 300ms;
+}
+.flex-item img{
+    height: 150px;
+}
+
+.top{
+    text-align: left;
+    padding: 10px;;
+}
+.top h5{
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.circle1 {
+    border: solid grey;
+    float: right;
+    border-radius: 10px;
+    background: grey;
+    height: 10px;
+    width: 10px;
+    margin-left: 2px;
+}
+.circle2 {
+    border: solid blue;
+    float: right;
+    border-radius: 10px;
+    background: blue;
+    height: 10px;
+    width: 10px;
+    margin-left: 2px;
+}
+.circle3 {
+    border: solid green;
+    float: right;
+    border-radius: 10px;
+    background: green;
+    height: 10px;
+    width: 10px;
+}
+.circle4{
+    border: solid white;
+    float: right;
+    border-radius: 10px;
+    background: white;
+    height: 10px;
+    width: 10px;
+    margin-left: 2px;
+}
+.circle5 {
+    border: solid palevioletred;
+    float: right;
+    border-radius: 10px;
+    background: palevioletred;
+    height: 10px;
+    width: 10px;
+    margin-left: 2px;
+}
+
+.bottom{
+    padding: 20px;
+}
+.bottom h5{
+    text-align: right;
+    font-weight: bolder;
+    
+}
+.bottom h6{
+    text-align: left;
+    color: #aa9f8a;
+    position: absolute;
+    font-weight: bolder;
+}
+
+#women-products{
+    margin: 50px;
+}
+#women-products .divider{
+    margin-right: 20px;
+}
+
+#women-products .scroll{
+    float: left;
+}
+#about{
+    background: url(../img/about.jpg);
+    max-width: 100%;
+    height: 402px;
+  }
+
+.about-message{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    line-height: 2em;
+    font-weight: bolder;
+}
+fieldset {
+    border: 2px solid #b79e6b;
+    color: white;
+    text-align: center;
+    width: 380px;
+    padding: 0 150px;
+    margin: 0 auto;
+  }
+fieldset p{
+    font-weight: bold;
+}
+legend {
+    padding: 0 10px;
+  }
+#sale{
+    padding: 20px;
+    background: #6a6661;
+    color: white;
+    text-align: center;
+}
+
+#sale h3{
+    display: inline-block;
+    
+}
+.flex-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px
+}
+.yolomy{
+    flex-basis: 25%;
+    line-height: 2em;
+}
+.social{
+    flex-basis: 50%;
+    text-align: center;
+    
+}
+.grid-social{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 30px;
+    margin: 20px 0;
+}
+.grid-item{
+    text-align: center;
+}
+.credits{
+    flex-basis: 25%;
+    line-height: 2em;
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
+footer{
+    background: #555555;
+    color: white;
+}
+
+@media (max-width:1000px){
+    header{
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+    }
+    nav li{
+        margin: 0 20px;
+        right: 0;
+    }
+    .message h1{
+        position: relative;
+        top: 200px;
+        font-size: 50px;
+    }
+    
+    .message h3{
+        position: relative;
+        top: 300px;
+        font-weight: lighter;
+    }
+    #products-checkbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    #products-type, #products-button{
+        padding: 0;
+        margin: 10px 0;
+    }
+    #men-products, #texttitle, #women-products{
+        margin: 10px;
+        padding: 0;
+    }
+    .flex-container{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, 200px);
+        padding: 20px;
+        margin: 0;
+        justify-content: center;
+    }
+    fieldset{
+        padding: 0;
+        margin: 0 auto;
+    }
+    .flex-footer{
+        display: grid;
+        text-align: center;
+    }
+    .yolomy,.social,.credits{
+        flex-basis: auto;
+        padding: 20px;
+    }
+}
